@@ -1,0 +1,4 @@
+# Запрещаем скачивать настройки, логи и сохранённые ответы
+<FilesMatch "^(config(\.example)?\.php|errors_.*\.log|responses_.*\.jsonl)$">
+    Require all denied
+</FilesMatch>
