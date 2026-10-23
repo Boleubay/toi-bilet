@@ -1,7 +1,0 @@
-# Запрещаем скачивать настройки с токеном
-<Files "config.php">
-    Require all denied
-</Files>
-<Files "config.example.php">
-    Require all denied
-</Files>
